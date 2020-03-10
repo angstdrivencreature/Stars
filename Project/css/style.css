@@ -1,0 +1,18 @@
+header {
+    color: white; 
+    display: flex;
+    justify-content: center;
+}    
+body { 
+background-image: url('https://realisticwanderlust.com/assets/images/photographing-milky-way/streak-edited.jpeg');
+}
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+
+}

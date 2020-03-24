@@ -1,0 +1,194 @@
+.background-image-top{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 75vh;
+  margin: 1vh;
+  border-radius: 25px;
+  background-image: url('https://realisticwanderlust.com/assets/images/photographing-milky-way/streak-edited.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom {
+  position: absolute;
+  top: 25vh;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#box {
+
+    position: absolute;
+    border-radius: 25px;
+    background: black;
+    padding: 2vh;
+    top: 0vh;
+    bottom: 0vh;
+    left: 0vh;
+    right: 0vh;
+    margin: 1vh;
+}
+
+/* about page */
+#us1 {
+  padding: 0;
+  width: 300px;
+  height: 250px;
+  margin-left: 50px;
+  position: absolute;
+  display: inline-block;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 20px;
+
+}
+
+#Sophia {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#us2 {
+  padding: 0;
+  width: 300px;
+  height: 250px;
+  margin-left: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 20px;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+s {
+    text-decoration-color: teal;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 0px;
+    font-size: 50px;
+
+}
+
+
+body {
+font-family: 'Anaheim';font-size: 22px;
+background-size: cover;
+background-color: white;
+}
+
+
+p {
+    font-style: italic;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+
+}
+li{
+  float: left;
+}
+
+a{
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 14px 16px;
+  background-color: inherit
+}
+.navbar li a{
+  color: white;
+}
+
+navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+  }
+  navbar {
+    overflow: hidden;
+
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: darkslateblue;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: darkslateblue;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

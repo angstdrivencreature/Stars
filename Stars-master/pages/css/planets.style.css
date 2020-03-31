@@ -20,91 +20,88 @@
 }
 
 #box {
-
-    position: absolute;
-    border-radius: 25px;
-    background: black;
-    padding: 2vh;
-    top: 0vh;
-    bottom: 0vh;
-    left: 0vh;
-    right: 0vh;
-    margin: 1vh;
-}
-
-/* about page */
-#us1 {
-  padding: 0;
-  width: 300px;
-  height: 250px;
-  margin-left: 50px;
   position: absolute;
-  display: inline-block;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  font-size: 20px;
-
+  border-radius: 25px;
+  background: black;
+  padding: 2vh;
+  top: 0vh;
+  bottom: 0vh;
+  left: 0vh;
+  right: 0vh;
+  margin: 1vh;
 }
 
-#Sophia {
-  height: 100px;
-  width: 100px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
+.textEarth {
+  width: 89vh;
+  border: 1px solid white;
+  margin: 25px;
+  float: left;
 }
 
-#us2 {
-  padding: 0;
-  width: 300px;
-  height: 250px;
-  margin-left: 50px;
-  position: absolute;
+.Earthimage {
+  margin: 50px;
+  float: left; 
+  max-width: 450px; 
+  overflow: hidden; 
   display: flex;
   justify-content: center;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  font-size: 20px;
+  align-items: center;
 }
 
-img {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+.Earthimage img {
+  height: 390px;
+}
+
+
+
+.textVenus {
+  width: 89vh;
+  border: 1px solid white;
+  margin: 25px;
+  float: left;
+}
+
+.Venusimage {
+  margin: 30px;
+  float: left; 
+  max-width: 450px; 
+  overflow: hidden; 
+}
+
+.Venusimage img {
+  height: 390px;
 }
 
 s {
-    text-decoration-color: teal;
+  text-decoration-color: teal;
 }
 
 h1 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    line-height: 0px;
-    font-size: 50px;
-
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  line-height: 0px;
+  font-size: 50px;
 }
 
 
 body {
-font-family: 'Anaheim';font-size: 22px;
-background-size: cover;
-background-color: white;
+  font-family: 'Anaheim';font-size: 22px;
+  background-size: cover;
+  background-color: white;
 }
 
 
 p {
-    font-style: italic;
-    text-align: justify;
-    color: white;
-    font-size: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
+  font-style: italic;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -129,14 +126,14 @@ a{
 }
 
 navbar {
-    overflow: hidden;
-    background-color: black;
-    font-family: Arial;
-  }
-  navbar {
-    overflow: hidden;
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+}
 
-  }
+navbar {
+  overflow: hidden;
+}
 
   .navbar a {
     float: left;
